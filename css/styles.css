@@ -1,22 +1,8 @@
-* {padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-}
-a{
-    text-decoration: none;
-}
-/* .header{ */
-    /* display:grid; */
-    /* grid-template-columns : 65% auto; */
-    /* grid-template-rows: 60% auto; */
-/* } */
-  header{  
+header{  
     
     height: 650px;
     background-image: url("../assets/imagenes/resto-fachada.jpg");
     background-position: 50%;
-
 
 
   }  
@@ -145,7 +131,7 @@ article .menu{
         transition-duration: 4s;
     }
     .carta__img:hover{
-        transform: scale(1.1) ;
+        transform: scale(0.6) ;
         width: 600px;
 
     }
@@ -171,10 +157,11 @@ article .menu{
     }
     
 h3{
-padding: 30px;
-margin: 30px;   
+padding: 10px;
+margin: 10px;   
 font-size: 65px;
 background-color: rgba(137, 43, 226, 0.445);
+display: flex;
 border:10px solid;
 text-align: center;
 box-shadow: 5px 10px 20px 10px;
@@ -306,3 +293,8 @@ footer{
  .direction{
     font-size: 30px;
 }
+
+
+
+
+/*# sourceMappingURL=styles.css.map */
