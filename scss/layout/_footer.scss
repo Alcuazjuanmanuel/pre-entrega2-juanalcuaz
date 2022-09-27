@@ -1,0 +1,20 @@
+footer{
+    background-color: chocolate;
+}
+
+ .logo-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+ }
+ .logo-footer__titulo{
+    padding: 30px;
+    font-size: 45px;
+}
+ .direccion{
+     padding: 50px;
+}
+ .direction{
+    font-size: 30px;
+}

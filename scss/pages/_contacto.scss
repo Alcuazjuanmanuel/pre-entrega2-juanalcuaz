@@ -1,0 +1,42 @@
+.contacto{
+    display: flex;
+}
+.img2{
+    width: 500px;
+    height: 400px;
+    border-radius: 10%;
+    margin-left: 50px;
+}
+.nombreyapellido {
+    font-size: 30px;
+    padding: 20px;
+}
+.telefono{
+    font-size: 30px;
+    padding: 20px;  
+}
+.email{
+    font-size: 30px;
+    padding: 20px;
+}
+.comentarios{
+    font-size: 20px;
+    padding: 20px;
+}
+.boton-contacto{
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 15%;
+    margin: 30px;    
+}
+.boton-contacto:hover{
+    background-color:black;
+    color: white;
+}
+.imagen-nos{
+        background-image: url(../assets/imagenes/interior1.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
