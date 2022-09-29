@@ -7,11 +7,12 @@ footer{
     align-items: center;
     flex-direction: row;
     text-align: center;
- }
- .logo-footer__titulo{
+ 
+ &__titulo{
     padding: 30px;
-    font-size: 45px;
+    font-size: 38px;
 }
+ }
  .direccion{
      padding: 50px;
 }

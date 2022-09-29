@@ -1,11 +1,16 @@
 .contacto{
     display: flex;
+    
+   
+}
+.fondo-contacto{
+    background-color: papayawhip;
 }
 .img2{
     width: 500px;
     height: 400px;
     border-radius: 10%;
-    margin-left: 50px;
+    margin: 50px;
 }
 .nombreyapellido {
     font-size: 30px;
@@ -23,20 +28,4 @@
     font-size: 20px;
     padding: 20px;
 }
-.boton-contacto{
-    width: 100px;
-    border: 3px solid black;
-    border-radius: 15%;
-    margin: 30px;    
-}
-.boton-contacto:hover{
-    background-color:black;
-    color: white;
-}
-.imagen-nos{
-        background-image: url(../assets/imagenes/interior1.jpg);
-        background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
+

@@ -1,22 +1,26 @@
 header{  
-    
-    height: 650px;
+    width: 400px;
+    height: 550px;
+    //imagen fondo header//
     background-image: url("../assets/imagenes/resto-fachada.jpg");
     background-position: 50%;
+    position: relative;
+  } 
+  
+  .header{
 
-
-  }  
- .header__logo{ 
+  
+ &__logo{ 
     display: flex;
     align-items: center;
  }
- .header__redes{
+ &__redes{
     display: flex;
     align-items: flex-end;
     align-self: flex-start;
 
  }
- .header__nav {
+ &__nav {
    
     display: flex; 
     justify-content: space-between;
@@ -26,15 +30,8 @@ header{
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.438)
  }
- .redes{
-    width: 20px;
-    height: 20px;
 }
-
-.logo__imagen{
-   display: flex;
-    align-items: flex-start;
-    justify-content: center;
+ .redes{
     width: 20px;
     height: 20px;
 }
@@ -43,13 +40,21 @@ header{
   height: 65px;
   
  }
-     
-
-.logo__titulo{
+.logo{
+&__imagen{
+   display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+    
+&__titulo{
     display: flex;
     text-align: center;
     font-size: 30px;
  } 
+}
  nav ul li {
     display: flex;
     list-style: none;

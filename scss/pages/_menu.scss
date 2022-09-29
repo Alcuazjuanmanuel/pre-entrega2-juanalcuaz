@@ -2,34 +2,43 @@ article .menu{
     font-size: 40px;
     color: blue;
 }
-.menu__titulo{
+.menu{
+&__titulo{
     font-size: 50px;
     padding: 30px;
 }
-
+&__contenedor{
+  padding: 50px;
+display: flex;
+ overflow-x: auto;
+gap: 20px;
+}
+}
 .carta {
     background-color: rgba(207, 45, 24, 0.336);
     border: solid 2px black;
     border-radius: 20px;
-    width: 400px;
+    width: 300px;
     padding: 20px;
     font-size: 2rem;
     
     display: flex;
     flex-direction: column;
-    }
-    .carta__img{
-        width: 350px;
+    justify-content: space-between;
+    
+    &__img{
+        width: 230px;
         border-radius: 25%;
-        transition-property: all;
-        transition-duration: 4s;
+        transition-property: all ;
+       transition-duration: 3s;
+         object-fit: cover;
     }
-    .carta__img:hover{
-        transform: scale(1.1) ;
-        width: 600px;
+     &__img:hover{
+        transform: scale(2.5 )  ;
+        width: 100px;
 
-    }
-    .carta__botton{
+      }
+    &__botton{
         padding: 5px;
         border: 2px solid black;
         background-color: rgb(109, 179, 120);
@@ -39,25 +48,10 @@ article .menu{
         transition-property: all;
         transition-duration: 1s;
       }
-      .carta__botton:hover{
+      &__botton:hover{
         background-color: darkgoldenrod;
       }
-    
-    .menu__contenedor{
-        padding: 50px;
-      display: flex;
-      overflow-x: auto;
-      gap: 20px;
-    }
-    
-h3{
-padding: 10px;
-margin: 10px;   
-font-size: 65px;
-background-color: rgba(137, 43, 226, 0.445);
-display: flex;
-border:10px solid;
-text-align: center;
-box-shadow: 5px 10px 20px 10px;
-text-shadow: 5px 2px 10px;
 }
+   
+    
+
