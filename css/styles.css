@@ -46,7 +46,7 @@ footer {
   text-align: center;
 }
 .logo-footer__titulo {
-  padding: 30px;
+  padding: 25px;
   font-size: 38px;
 }
 
@@ -195,6 +195,10 @@ input {
 article .menu {
   font-size: 40px;
   color: blue;
+}
+
+.fondo-menu {
+  background-color: papayawhip;
 }
 
 .menu__titulo {
