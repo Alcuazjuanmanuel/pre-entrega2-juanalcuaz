@@ -1,11 +1,11 @@
 .nosotros{
-    color: white;
+    color: rgb(226, 218, 218);
     font-size: 2rem;
     padding: 20px;
     margin: 50px;
+    background-color: rgba(0, 0, 0, 0.781);
     text-shadow: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .imagen-nos{
     background-image: url(../assets/imagenes/interior1.jpg);
@@ -14,7 +14,7 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
 }
-      
+
 
 .img{
     width: 300px;

@@ -1,7 +1,10 @@
 footer{
-    background-color: chocolate;
+    background-color: rgba(210, 105, 30, 0.548);
 }
-
+h2 a {
+    color:$color-logo ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
  .logo-footer{
     display: flex;
     align-items: center;
@@ -11,6 +14,8 @@ footer{
  &__titulo{
     padding: 25px;
     font-size: 38px;
+    color: $color-logo;
+    
 }
  }
  .direccion{
@@ -18,4 +23,5 @@ footer{
 }
  .direction{
     font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

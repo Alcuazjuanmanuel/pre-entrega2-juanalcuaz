@@ -1,4 +1,5 @@
 .reservas{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
     padding: 50px;
 }
@@ -6,7 +7,7 @@
       background-color: papayawhip;
 }
 .imagen-reserva{
-    background-image: url(../../assets/imagenes/resto1.jpg);
+    background-image: url(../assets/imagenes/resto1.jpg);
     background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -14,45 +15,56 @@ background-size: cover;
 }
 
 .calend{
-    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.63);
+    font-size: 25px;
     color: white;
-    padding: 30px;
-    margin: 20px;
+    @include margen (30px , 20px )
+    
    
 }
 .name{
-    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.63);
+    font-size: 25px;
     color: white;    
-    padding: 30px;
-    margin: 20px;
+     @include margen (30px , 20px )
   
 }
 .perso {
-    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.63);
+    font-size: 25px;
     color: white; 
-    padding: 30px;
-    margin: 20px;
+    @include margen (30px , 20px )
+    
  
 }
 .telef{
-    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.63);
+    font-size: 25px;
     color: white; 
-    padding: 30px;
-    margin: 20px;
+    @include margen (30px , 20px )
 
 }
 .salon{
-    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.63);
+    font-size: 25px;
     color: white; 
-    padding: 20px;
-    margin: 15px;
+    @include margen (20px , 15px )
 
 }
 
 .form-reserva{
    
     width: 50%;
-    padding: 50px;
-    margin: 30px;
+    @include margen (50px , 30px )
  }
+ @media (max-with:480px){
+     .name {
+        background-color: blue;
+       font-size: 25px;
+        color: rgb(155, 27, 27);    
+        padding: 20px;
+         margin: 10px;
+      
+     }
 
+ }
