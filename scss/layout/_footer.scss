@@ -2,8 +2,12 @@ footer{
     background-color: rgba(210, 105, 30, 0.548);
 }
 h2 a {
+    
     color:$color-logo ;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 5px 10px 10px  black;
+    
 }
  .logo-footer{
     display: flex;
@@ -12,11 +16,15 @@ h2 a {
     text-align: center;
  
  &__titulo{
-    padding: 25px;
-    font-size: 38px;
+    padding: 10px;
+    font-size: 55px;
     color: $color-logo;
-    
-}
+   }
+ }
+ @media(max-width:768px){
+    .logo-footer__titulo{
+        font-size: 30px;
+    }
  }
  .direccion{
      padding: 50px;

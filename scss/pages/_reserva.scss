@@ -57,14 +57,4 @@ background-size: cover;
     width: 50%;
     @include margen (50px , 30px )
  }
- @media (max-with:480px){
-     .name {
-        background-color: blue;
-       font-size: 25px;
-        color: rgb(155, 27, 27);    
-        padding: 20px;
-         margin: 10px;
-      
-     }
-
- }
+ 
